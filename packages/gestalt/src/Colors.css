@@ -22,6 +22,84 @@
 
   /* transparent colors */
   --transparentDarkGray: rgba(51, 51, 51, 0.8);
+
+
+  /* some more colors */
+    --black: #292E31;
+  --gray-dark: #505558;
+  --gray: #777C7F;
+  --gray-light: #9EA3A6;
+  --gray-lighter: #C5CACD;
+  --gray-lightest: #EDF2F5;
+  --white: #FFFFFF;
+  --background-darker: #F2F2F2;
+  --background: #F8F8F8;
+  --link: #267ABD;
+  --link-visited: #7F57B8;
+  --link-dark-bg: #ACCCE5;
+  --disabled: #C5CACD;
+  --notification-1: #EA60A7;
+  --notification-2: #FFB511;
+  --notification-3: #0D9DDB;
+  --highlight-1: #FFF8B0;
+  --highlight-2: #E3F7FF;
+  --highlight-3: #E0FFE0;
+  --action-darkest: #30855C;
+  --action-darker: #399E6E;
+  --action: #3DA774;
+  --action-lighter: #49B88B;
+  --action-lightest: #EBF6F1;
+  --selected-darkest: #0A7DAF;
+  --selected-darker: #0D94CF;
+  --selected: #0D9DDB;
+  --selected-lighter: #0FB0E2;
+  --selected-lightest: #E7F5FB;
+  --error-darkest: #B43931;
+  --error-darker: #D5443A;
+  --error: #E1483E;
+  --error-lighter: #E7564A;
+  --error-lightest: #FBECEB;
+  --warning-darkest: #CC900D;
+  --warning-darker: #F2AB10;
+  --warning: #FFB511;
+  --warning-lighter: #FFC314;
+  --warning-lightest: #FFF7E7;
+  --secondary-darker: #E0E5E8;
+  --secondary: #EDF2F5;
+  --secondary-lighter: #F6F8FA;
+  --bna-blue: #17509F;
+  --blaw-blue: #0D9DDB;
+  --btax-orange: #EA7815;
+  --btax-blue: #2785D6;
+  --bgov-navy: #0018AB;
+  --bgov-purple: #9933CC;
+  --theme-antitrust: #57534A;
+  --theme-banking: #379851;
+  --theme-bankruptcy: #C52700;
+  --theme-benefits: #EA6A02;
+  --theme-corporate: #8A5BB6;
+  --theme-ediscovery: #F64A56;
+  --theme-environment: #6DC470;
+  --theme-health: #0D3B91;
+  --theme-ip: #1E95C1;
+  --theme-labor: #00C18C;
+  --theme-securities: #45BDE9;
+  --theme-telecom: #6A8C8A;
+  --dataviz-1: #63B995;
+  --dataviz-2: #1E4882;
+  --dataviz-3: #F87060;
+  --dataviz-4: #1AA2AF;
+  --dataviz-5: #FFB511;
+  --dataviz-6: #9357C8;
+  --dataviz-7: #F697C0;
+  --dataviz-8: #2ECC71;
+  --dataviz-9: #34495E;
+  --dataviz-10: #FF6D10;
+  --dataviz-positive: #2ECC71;
+  --dataviz-negative: #F87060;
+  --democrat: #0A54C2;
+  --republican: #D3301A;
+  --independent: #FFB00D;
 }
 
 /** PRIMARY COLORS **/
@@ -220,4 +298,605 @@
 
 .darkWashBg {
   background-color: #dadada;
+}
+
+
+.black {
+  color: var(--black);
+}
+
+.grayDark {
+  color: var(--gray-dark);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.grayLight {
+  color: var(--gray-light);
+}
+
+.grayLighter {
+  color: var(--gray-lighter);
+}
+
+.grayLightest {
+  color: var(--gray-lightest);
+}
+
+.white {
+  color: var(--white);
+}
+
+.backgroundDarker {
+  color: var(--background-darker);
+}
+
+.background {
+  color: var(--background);
+}
+
+.link {
+  color: var(--link);
+}
+
+.linkVisited {
+  color: var(--link-visited);
+}
+
+.linkDarkBg {
+  color: var(--link-dark-bg);
+}
+
+.disabled {
+  color: var(--disabled);
+}
+
+.notification1 {
+  color: var(--notification-1);
+}
+
+.notification2 {
+  color: var(--notification-2);
+}
+
+.notification3 {
+  color: var(--notification-3);
+}
+
+.highlight1 {
+  color: var(--highlight-1);
+}
+
+.highlight2 {
+  color: var(--highlight-2);
+}
+
+.highlight3 {
+  color: var(--highlight-3);
+}
+
+.actionDarkest {
+  color: var(--action-darkest);
+}
+
+.actionDarker {
+  color: var(--action-darker);
+}
+
+.action {
+  color: var(--action);
+}
+
+.actionLighter {
+  color: var(--action-lighter);
+}
+
+.actionLightest {
+  color: var(--action-lightest);
+}
+
+.selectedDarkest {
+  color: var(--selected-darkest);
+}
+
+.selectedDarker {
+  color: var(--selected-darker);
+}
+
+.selected {
+  color: var(--selected);
+}
+
+.selectedLighter {
+  color: var(--selected-lighter);
+}
+
+.selectedLightest {
+  color: var(--selected-lightest);
+}
+
+.errorDarkest {
+  color: var(--error-darkest);
+}
+
+.errorDarker {
+  color: var(--error-darker);
+}
+
+.error {
+  color: var(--error);
+}
+
+.errorLighter {
+  color: var(--error-lighter);
+}
+
+.errorLightest {
+  color: var(--error-lightest);
+}
+
+.warningDarkest {
+  color: var(--warning-darkest);
+}
+
+.warningDarker {
+  color: var(--warning-darker);
+}
+
+.warning {
+  color: var(--warning);
+}
+
+.warningLighter {
+  color: var(--warning-lighter);
+}
+
+.warningLightest {
+  color: var(--warning-lightest);
+}
+
+.secondaryDarker {
+  color: var(--secondary-darker);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.secondaryLighter {
+  color: var(--secondary-lighter);
+}
+
+.bnaBlue {
+  color: var(--bna-blue);
+}
+
+.blawBlue {
+  color: var(--blaw-blue);
+}
+
+.btaxOrange {
+  color: var(--btax-orange);
+}
+
+.btaxBlue {
+  color: var(--btax-blue);
+}
+
+.bgovNavy {
+  color: var(--bgov-navy);
+}
+
+.bgovPurple {
+  color: var(--bgov-purple);
+}
+
+.themeAntitrust {
+  color: var(--theme-antitrust);
+}
+
+.themeBanking {
+  color: var(--theme-banking);
+}
+
+.themeBankruptcy {
+  color: var(--theme-bankruptcy);
+}
+
+.themeBenefits {
+  color: var(--theme-benefits);
+}
+
+.themeCorporate {
+  color: var(--theme-corporate);
+}
+
+.themeEdiscovery {
+  color: var(--theme-ediscovery);
+}
+
+.themeEnvironment {
+  color: var(--theme-environment);
+}
+
+.themeHealth {
+  color: var(--theme-health);
+}
+
+.themeIp {
+  color: var(--theme-ip);
+}
+
+.themeLabor {
+  color: var(--theme-labor);
+}
+
+.themeSecurities {
+  color: var(--theme-securities);
+}
+
+.themeTelecom {
+  color: var(--theme-telecom);
+}
+
+.dataviz1 {
+  color: var(--dataviz-1);
+}
+
+.dataviz2 {
+  color: var(--dataviz-2);
+}
+
+.dataviz3 {
+  color: var(--dataviz-3);
+}
+
+.dataviz4 {
+  color: var(--dataviz-4);
+}
+
+.dataviz5 {
+  color: var(--dataviz-5);
+}
+
+.dataviz6 {
+  color: var(--dataviz-6);
+}
+
+.dataviz7 {
+  color: var(--dataviz-7);
+}
+
+.dataviz8 {
+  color: var(--dataviz-8);
+}
+
+.dataviz9 {
+  color: var(--dataviz-9);
+}
+
+.dataviz10 {
+  color: var(--dataviz-10);
+}
+
+.datavizPositive {
+  color: var(--dataviz-positive);
+}
+
+.datavizNegative {
+  color: var(--dataviz-negative);
+}
+
+.democrat {
+  color: var(--democrat);
+}
+
+.republican {
+  color: var(--republican);
+}
+
+.independent {
+  color: var(--independent);
+}
+
+.blackBg {
+  background: var(--black);
+}
+
+.grayDarkBg {
+  background: var(--gray-dark);
+}
+
+.grayBg {
+  background: var(--gray);
+}
+
+.grayLightBg {
+  background: var(--gray-light);
+}
+
+.grayLighterBg {
+  background: var(--gray-lighter);
+}
+
+.grayLightestBg {
+  background: var(--gray-lightest);
+}
+
+.whiteBg {
+  background: var(--white);
+}
+
+.backgroundDarkerBg {
+  background: var(--background-darker);
+}
+
+.backgroundBg {
+  background: var(--background);
+}
+
+.linkBg {
+  background: var(--link);
+}
+
+.linkVisitedBg {
+  background: var(--link-visited);
+}
+
+.linkDarkBgBg {
+  background: var(--link-dark-bg);
+}
+
+.disabledBg {
+  background: var(--disabled);
+}
+
+.notification1Bg {
+  background: var(--notification-1);
+}
+
+.notification2Bg {
+  background: var(--notification-2);
+}
+
+.notification3Bg {
+  background: var(--notification-3);
+}
+
+.highlight1Bg {
+  background: var(--highlight-1);
+}
+
+.highlight2Bg {
+  background: var(--highlight-2);
+}
+
+.highlight3Bg {
+  background: var(--highlight-3);
+}
+
+.actionDarkestBg {
+  background: var(--action-darkest);
+}
+
+.actionDarkerBg {
+  background: var(--action-darker);
+}
+
+.actionBg {
+  background: var(--action);
+}
+
+.actionLighterBg {
+  background: var(--action-lighter);
+}
+
+.actionLightestBg {
+  background: var(--action-lightest);
+}
+
+.selectedDarkestBg {
+  background: var(--selected-darkest);
+}
+
+.selectedDarkerBg {
+  background: var(--selected-darker);
+}
+
+.selectedBg {
+  background: var(--selected);
+}
+
+.selectedLighterBg {
+  background: var(--selected-lighter);
+}
+
+.selectedLightestBg {
+  background: var(--selected-lightest);
+}
+
+.errorDarkestBg {
+  background: var(--error-darkest);
+}
+
+.errorDarkerBg {
+  background: var(--error-darker);
+}
+
+.errorBg {
+  background: var(--error);
+}
+
+.errorLighterBg {
+  background: var(--error-lighter);
+}
+
+.errorLightestBg {
+  background: var(--error-lightest);
+}
+
+.warningDarkestBg {
+  background: var(--warning-darkest);
+}
+
+.warningDarkerBg {
+  background: var(--warning-darker);
+}
+
+.warningBg {
+  background: var(--warning);
+}
+
+.warningLighterBg {
+  background: var(--warning-lighter);
+}
+
+.warningLightestBg {
+  background: var(--warning-lightest);
+}
+
+.secondaryDarkerBg {
+  background: var(--secondary-darker);
+}
+
+.secondaryBg {
+  background: var(--secondary);
+}
+
+.secondaryLighterBg {
+  background: var(--secondary-lighter);
+}
+
+.bnaBlueBg {
+  background: var(--bna-blue);
+}
+
+.blawBlueBg {
+  background: var(--blaw-blue);
+}
+
+.btaxOrangeBg {
+  background: var(--btax-orange);
+}
+
+.btaxBlueBg {
+  background: var(--btax-blue);
+}
+
+.bgovNavyBg {
+  background: var(--bgov-navy);
+}
+
+.bgovPurpleBg {
+  background: var(--bgov-purple);
+}
+
+.themeAntitrustBg {
+  background: var(--theme-antitrust);
+}
+
+.themeBankingBg {
+  background: var(--theme-banking);
+}
+
+.themeBankruptcyBg {
+  background: var(--theme-bankruptcy);
+}
+
+.themeBenefitsBg {
+  background: var(--theme-benefits);
+}
+
+.themeCorporateBg {
+  background: var(--theme-corporate);
+}
+
+.themeEdiscoveryBg {
+  background: var(--theme-ediscovery);
+}
+
+.themeEnvironmentBg {
+  background: var(--theme-environment);
+}
+
+.themeHealthBg {
+  background: var(--theme-health);
+}
+
+.themeIpBg {
+  background: var(--theme-ip);
+}
+
+.themeLaborBg {
+  background: var(--theme-labor);
+}
+
+.themeSecuritiesBg {
+  background: var(--theme-securities);
+}
+
+.themeTelecomBg {
+  background: var(--theme-telecom);
+}
+
+.dataviz1Bg {
+  background: var(--dataviz-1);
+}
+
+.dataviz2Bg {
+  background: var(--dataviz-2);
+}
+
+.dataviz3Bg {
+  background: var(--dataviz-3);
+}
+
+.dataviz4Bg {
+  background: var(--dataviz-4);
+}
+
+.dataviz5Bg {
+  background: var(--dataviz-5);
+}
+
+.dataviz6Bg {
+  background: var(--dataviz-6);
+}
+
+.dataviz7Bg {
+  background: var(--dataviz-7);
+}
+
+.dataviz8Bg {
+  background: var(--dataviz-8);
+}
+
+.dataviz9Bg {
+  background: var(--dataviz-9);
+}
+
+.dataviz10Bg {
+  background: var(--dataviz-10);
+}
+
+.datavizPositiveBg {
+  background: var(--dataviz-positive);
+}
+
+.datavizNegativeBg {
+  background: var(--dataviz-negative);
+}
+
+.democratBg {
+  background: var(--democrat);
+}
+
+.republicanBg {
+  background: var(--republican);
+}
+
+.independentBg {
+  background: var(--independent);
 }

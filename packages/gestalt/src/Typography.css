@@ -1,3 +1,11 @@
+/* Font File */
+@import "http://assets.bwbx.io/font-service/css/AvenirNextMForBBG:400,400i,600,600i,700,700i%7COpenSans:400,400i,600,600i,700,700i/styled-font-face.css";
+
+:root {
+  --font-primary: "OpenSans",arial,sans-serif;
+  --font-accent: "AvenirNextMForBBG","Avenir Next","Avenir","Helvetica Neue",helvetica,arial,sans-serif;
+}
+
 /* aliasing */
 
 .antialiased {
@@ -6,23 +14,30 @@
 }
 
 /* fonts */
-
-.sansSerif {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
-    Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
-    Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+.primary {
+  font-family: var(--font-primary);
 }
 
-:lang(ja) .sansSerif {
-  font-family: "SF Pro JP", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
-    "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3",
-    "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  quotes: "「" "」";
+.accent {
+  font-family: var(--font-accent);
 }
+
+/* .sansSerif { */
+/*   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, */
+/*     Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", */
+/*     Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", */
+/*     Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", */
+/*     "Segoe UI Emoji", "Segoe UI Symbol"; */
+/* } */
+
+/* :lang(ja) .sansSerif { */
+/*   font-family: "SF Pro JP", -apple-system, BlinkMacSystemFont, "Segoe UI", */
+/*     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", */
+/*     "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", */
+/*     "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Arial, */
+/*     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+/*   quotes: "「" "」"; */
+/* } */
 
 /* kerning */
 
